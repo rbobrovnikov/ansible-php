@@ -3,14 +3,26 @@ __php_packages:
   - php
   - php-cli
   - php-common
-  - php-devel
   - php-fpm
   - php-gd
   - php-imap
+  - php-ioncube-loader
   - php-mbstring
+  - php-mcrypt
+  - php-mysqlnd
   - php-opcache
   - php-pdo
-  - php-pear
+  - php-pear.noarch
+  - php-pecl-apfd
+  - php-pecl-http
+  - php-pecl-json-post
+  - php-pecl-jsonc
+  - php-pecl-jsond
+  - php-pecl-propro
+  - php-pecl-raphf
+  - php-pecl-zip
+  - php-process
+  - php-soap
   - php-xml
   - php-xmlrpc
 __php_webserver_daemon: "httpd"

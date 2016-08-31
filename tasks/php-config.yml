@@ -19,4 +19,6 @@
   notify: restart webserver
 
 - name: Copy phpinfo
-  copy: src=templates/phpinfo.php dest=/var/www/html/phpinfo.php  
+  copy: 
+   src: templates/phpinfo.php
+   dest: /var/www/html/phpinfo.php  
